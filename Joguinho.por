@@ -10,7 +10,7 @@ programa {
 
     enquanto (jogoOn == verdadeiro) {
       escreva("Tentativas restantes: ",tentativas,"/5\n")
-      escreva("Informe um valor inteiro de 1 a 100: ")
+      escreva("Digite um valor inteiro de 1 a 100: ")
       leia(valor)
 
       se (valor == chute) {
