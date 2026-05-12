@@ -1,7 +1,6 @@
 import random
 
 tentativas = int(0)
-valor = int(0)
 jogoOn = True
 
 chute = random.randint(1, 100)
