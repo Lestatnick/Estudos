@@ -8,7 +8,7 @@ chute = random.randint(1, 100)
 
 while jogoOn == True:
     print(f"Tentativas restantes: {tentativas}/5")
-    valor = int(input("Informe-me um valor inteiro de 1 a 100: "))
+    valor = int(input("Digite um valor inteiro de 1 a 100: "))
     
     if valor == chute:
         print("Parabéns você acertou!")
